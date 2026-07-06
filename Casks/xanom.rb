@@ -1,19 +1,19 @@
 cask "xanom" do
-  version "2.1.4"
+  version "2.2.0"
 
   on_arm do
-    sha256 "248ce42b29d0a337fecec580d796c7c4332291e26ffaa295469de711bbe57d8b"
-    url "https://github.com/neel-xanom/xanom-releases/releases/download/v#{version}/Xanom_#{version}_aarch64.dmg"
+    sha256 "2e6f70094c524b17d02f43ef3101226371273cf295781e9ad9c66cadf438335e"
+    url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "603d2309fe7e38bd0c53c6029baa64a08811b35a99f5545f550fcd469a4252f0"
-    url "https://github.com/neel-xanom/xanom-releases/releases/download/v#{version}/Xanom_#{version}_x64.dmg"
+    sha256 "7465061855d7c57874b42f0d76a2edf48d6f9db5267ff573a9bae07506d087d7"
+    url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
   name "Xanom"
   desc "Desktop app for managing AI coding agents (Claude Code, Codex)"
-  homepage "https://github.com/neel-xanom/xanom-releases"
+  homepage "https://github.com/neel-xanom/agmux-releases"
 
   livecheck do
     url :url
@@ -23,7 +23,7 @@ cask "xanom" do
   auto_updates true
   depends_on macos: ">= :ventura"
 
-  app "Xanom.app"
+  app "agmux.app"
 
   zap trash: [
     "~/.xanom",
