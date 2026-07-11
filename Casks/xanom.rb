@@ -1,17 +1,17 @@
 cask "xanom" do
-  version "2.2.0"
+  version "3.0.0"
 
   on_arm do
-    sha256 "2e6f70094c524b17d02f43ef3101226371273cf295781e9ad9c66cadf438335e"
+    sha256 "810700852da8aec8e61f0737707f0b28365e7822faf2615c8fd20fc44b4f4346"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "7465061855d7c57874b42f0d76a2edf48d6f9db5267ff573a9bae07506d087d7"
+    sha256 "3ec94fa3b6cd1fa68d1e5bc3571ceb8665902627076e3873f9acaa934d5331cf"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
-  name "Xanom"
+  name "agmux"
   desc "Desktop app for managing AI coding agents (Claude Code, Codex)"
   homepage "https://github.com/neel-xanom/agmux-releases"
 
