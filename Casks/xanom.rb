@@ -1,13 +1,13 @@
 cask "xanom" do
-  version "3.1.0"
+  version "3.1.1"
 
   on_arm do
-    sha256 "d989a672d7c469835884c4e4cc61916f41f26dd9b221fa212c83ef659b807dcb"
+    sha256 "08a6c28c9213a872c16c6bde1c63245b48332939f72929b064b8f45212509841"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "ca20b618138a6ae7a71a6309dc174000ed43af7a0e6163c20245f330358981f4"
+    sha256 "6e0646f56fdf2b8f074c1107050354c4fd053552a8e44dd4c9b0bedbe26ff7eb"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
