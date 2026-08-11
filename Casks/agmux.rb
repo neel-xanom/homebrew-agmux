@@ -1,4 +1,4 @@
-cask "xanom" do
+cask "agmux" do
   version "3.1.4"
 
   on_arm do
