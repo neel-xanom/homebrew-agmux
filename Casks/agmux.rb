@@ -1,13 +1,13 @@
 cask "agmux" do
-  version "3.1.4"
+  version "4.0.0"
 
   on_arm do
-    sha256 "66dd106fcdda228b8de8592a3b53b16d0c9468c51b28f1463668c99ba1ef6a79"
+    sha256 "a5b640042fcefd47ce749aad2e7534f065e69ca231fff0472d0ce332c8bb2960"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "703cce7be6e0fa3884a44792fb070bca9a032772f6152db87680cd216b40820c"
+    sha256 "981fe9eb6c9129531cce849568bf89e4f57ccb0868fb001f9f7389e4e2ab4de7"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
@@ -26,6 +26,7 @@ cask "agmux" do
   app "agmux.app"
 
   zap trash: [
+    "~/.agmux",
     "~/.xanom",
     "~/Library/Application Support/com.xanom.app",
     "~/Library/Caches/com.xanom.app",
