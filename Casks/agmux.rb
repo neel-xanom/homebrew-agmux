@@ -1,13 +1,13 @@
 cask "agmux" do
-  version "4.0.0"
+  version "4.0.1"
 
   on_arm do
-    sha256 "a5b640042fcefd47ce749aad2e7534f065e69ca231fff0472d0ce332c8bb2960"
+    sha256 "f6066c2e9e0876e69c62d5e4b26a9b96d8ad52565797549c9ee7da9000e033a8"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "981fe9eb6c9129531cce849568bf89e4f57ccb0868fb001f9f7389e4e2ab4de7"
+    sha256 "7f3636af2baa29ce682e360c82d1d059eae1f0a021d34025b2e73cc5a15107e8"
     url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
