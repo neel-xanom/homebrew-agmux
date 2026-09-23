@@ -1,19 +1,19 @@
 cask "agmux" do
-  version "4.1.3"
+  version "4.2.0"
 
   on_arm do
-    sha256 "d4bf2d9814b62fb2e9adf2176b8dc44a157fa6ae4ef8b2aab57b45a697d21732"
-    url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
+    sha256 "010c5aa41d51bf5b92906f30bbe22e3d1036071004e29600b1e8a35ce2ce9539"
+    url "https://github.com/neelsatyavolu/agmux/releases/download/v#{version}/agmux_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "fd448e25870048854fa34d2927dc3022b927533c0a307839fc1dcf0ff6e4286d"
-    url "https://github.com/neel-xanom/agmux-releases/releases/download/v#{version}/agmux_#{version}_x64.dmg"
+    sha256 "3fa63c7ea5f0be976515b200d9d442640c855d8fe4c6080a2bf26543922cf46d"
+    url "https://github.com/neelsatyavolu/agmux/releases/download/v#{version}/agmux_#{version}_x64.dmg"
   end
 
   name "agmux"
   desc "Desktop app for managing AI coding agents (Claude Code, Codex)"
-  homepage "https://github.com/neel-xanom/agmux-releases"
+  homepage "https://github.com/neelsatyavolu/agmux"
 
   livecheck do
     url :url
