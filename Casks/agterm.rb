@@ -1,6 +1,6 @@
 cask "agterm" do
-  version "1.2.13"
-  sha256 "f957d57e6c5d0476ed165af574c795ec06ec9eadc649cd3a5aeeb52eb67c7113"
+  version "1.3.0"
+  sha256 "c04e70a2df7e159f7af71561c7bad97a5ce9637d361bc106ff3f4e28494191fc"
 
   url "https://github.com/neelsatyavolu/agterm/releases/download/v#{version}/agterm-#{version}.zip"
   name "agterm"
